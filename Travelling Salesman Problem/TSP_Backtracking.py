@@ -1,3 +1,5 @@
+from time import process_time
+
 def minCostWay(graph):
     n = len(graph)
     min_cost = float('inf')
