@@ -1,5 +1,5 @@
 # Using brute force to solve Traveling Salesman problem
-
+import itertools
 def travelling_salesman(graph):
     # Get all possible permutations of nodes
     nodes = list(graph.keys())
@@ -25,6 +25,7 @@ def travelling_salesman(graph):
             shortest_distance = total_distance
 
     return shortest_path, shortest_distance
+
 
 # Create a graph
 graph = {
