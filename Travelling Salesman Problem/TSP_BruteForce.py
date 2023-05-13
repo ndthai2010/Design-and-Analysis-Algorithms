@@ -1,7 +1,4 @@
-import itertools
-
-# Bài toán người bán hàng
-
+# Using brute force to solve Traveling Salesman problem
 
 def travelling_salesman(graph):
     # Get all possible permutations of nodes
@@ -28,7 +25,6 @@ def travelling_salesman(graph):
             shortest_distance = total_distance
 
     return shortest_path, shortest_distance
-
 
 # Create a graph
 graph = {
