@@ -52,8 +52,8 @@ matrix = [
 ]
 optimal_cost, optimal_path = tsp(matrix)
 
-print("Optimal Cost:", optimal_cost)
 print("Optimal Path:", optimal_path)
+print("Optimal Cost:", optimal_cost)
 
 
 
